@@ -1,0 +1,33 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+$primary-color: #876445;
+$primary-variant: #743C08;
+$primary-variant2: #C69B7B;
+$secondary-color: #F6B61E;
+$secondary-variant: #F4DFBA;
+$bg-color: white;
+$error-color: #990000;
+$on-primary: white;
+$on-secondary: black;
+$on-bg: black;
+$on-error: white;
+$body-font-family: 'IBM Plex Sans Thai Looped';
+
+body {
+    background-color: $bg-color;
+    color: $on-bg;
+    font-family: $body-font-family;
+}
+
+.v-app-bar {
+    background-color: $primary-color !important;
+    color: $on-primary !important;
+}
+
+.store.v-list-item {
+    min-height: 160px;
+}
+
+.v-list-item__title,.v-list-item__subtitle {
+    line-height: 1.6 !important;
+}
